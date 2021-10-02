@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.item {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.product-img {
+  width: 150px;
+}
